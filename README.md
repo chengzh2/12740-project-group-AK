@@ -71,7 +71,9 @@ Discuss the insights from the project
 
 ## References
 
-[1] Adafruit Industries. “DHT11 Basic Temperature-Humidity Sensor + Extras.” Adafruit Industries Blog RSS, www.adafruit.com/product/386.
+[1] Amber. (2018, Nov 16)“Search Archive:dht11. Retrieved from: Kookyecom, kookye.com/?s=dht11.
 
-[2] Amber. “Search Archive:dht11.” Kookyecom, 16 Nov. 2018, kookye.com/?s=dht11.
+[2] Tarun Agarwal. (2019) Temperature Sensors – Types, Working & Operation. Retrieved from:
+https://www.elprocus.com/temperature-sensors-types-working-operation/
 
+[3] “GP.” ( 2010) Amazon, Goettsche Partners. Retrieved from: https://www.amazon.com/gp/product/B00KF7MVI2/ref=ppx_yo_dt_b_asin_title_o02_s02?ie=UTF8&psc=1.
