@@ -1,4 +1,3 @@
-# asdfgh #
 
 ## Introduction
  
