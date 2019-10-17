@@ -61,7 +61,7 @@ Discuss the insights from the project
 
 ## References
 
-Adafruit Industries. “DHT11 Basic Temperature-Humidity Sensor + Extras.” Adafruit Industries Blog RSS, www.adafruit.com/product/386.
+[1] Adafruit Industries. “DHT11 Basic Temperature-Humidity Sensor + Extras.” Adafruit Industries Blog RSS, www.adafruit.com/product/386.
 
-Amber. “Search Archive:dht11.” Kookyecom, 16 Nov. 2018, kookye.com/?s=dht11.
+[2] Amber. “Search Archive:dht11.” Kookyecom, 16 Nov. 2018, kookye.com/?s=dht11.
 
