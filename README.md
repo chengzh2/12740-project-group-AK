@@ -57,6 +57,9 @@ With the plastic housing removed, you can see the electrodes applied to the subs
 
 ![sensor](https://user-images.githubusercontent.com/42809684/66973309-9c878100-f065-11e9-99c5-bf38f289d4d6.png)
 
+We use Noctua NF-R8 redux-1800 PWM cooling fan to react with the humidity increase and defog the window. This cooling fan is a 4-pin fan with the voltage of 12V. Its detailed characteristics are listed as below [3]:
+
+
 ### Signal Conditioning and Processing
 
 Describe the signal conditioning and processing procedures
