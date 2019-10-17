@@ -29,17 +29,24 @@ The methods of defogging usually are out of two principles. One of them is to de
 
 ### Sensors Used
 
-Describe the sensor(s) you used, e.g. physical principles, static and dynamic behavior, and signal characteristics
+DHT11 sensor is used to detect the generation of fog. It has 3 pin and sends its temperature and relative humidity data to Raspberry Pi. Its technical details are shown as following:
 
-DHT11 Humidity and temperature sensor 
-Technical Details (Adafruit)
+#### DHT11 Humidity and temperature sensor 
+
 · Low cost
+
 · 3 to 5V power and I/O
+
 · 2.5mA max current use during conversion (while requesting data)
+
 · Good for 20-80% humidity readings with 5% accuracy
+
 · Good for 0-50°C temperature readings ±2°C accuracy
+
 · No more than 1 Hz sampling rate (once every second)
+
 · Body size 15.5mm x 12mm x 5.5mm
+
 · 4 pins with 0.1" spacing
 
 The DHT11 detects water vapor by measuring the electrical resistance between two electrodes (Amber). Between the electrodes, a moisture holding substrate can absorb water vapor. The substrate releases free ions, which increases the conductivity between the electrode, as water vapor enters it. The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. The change in resistance between the two electrodes is proportional to the relative humidity. Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes [humi].
