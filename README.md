@@ -1,9 +1,6 @@
 ### Team Members
 
-Yaxian Zheng
-Cheng Zhang
-Kaiwen Zhang
-Yanbo Zhang
+Yaxian Zheng, Cheng Zhang, Kaiwen Zhang, Yanbo Zhang
 
 ## Introduction
  
