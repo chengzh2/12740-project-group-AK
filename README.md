@@ -57,6 +57,8 @@ With the plastic housing removed, you can see the electrodes applied to the subs
 
 ![sensor](https://user-images.githubusercontent.com/42809684/66973309-9c878100-f065-11e9-99c5-bf38f289d4d6.png)
 
+<div align=center><img width="150" height="150" src="https://user-images.githubusercontent.com/42809684/66973309-9c878100-f065-11e9-99c5-bf38f289d4d6.png"/></div>
+
 <p align="center">Figure 2. Picture of DHT11<sup>[1]</sup></p>
 
 <div align=center><img width="150" height="150" src="http://img.blog.csdn.net/20161028230559575"/></div>
