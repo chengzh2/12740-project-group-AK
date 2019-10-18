@@ -99,7 +99,7 @@ The team used all the sensors and other items to build a system, including DHT11
 <img width="550" height="350" src="https://user-images.githubusercontent.com/42809684/67063108-7e885200-f133-11e9-8734-283ee8b5af4e.jpg"/>
 </div>
 
-<p align="center">Fig.3 Defogger Experiment Setup</p>
+<p align="center">Figure.3 Defogger Experiment Setup</p>
 
 ### Experiment Steps
 
