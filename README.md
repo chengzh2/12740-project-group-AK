@@ -30,7 +30,12 @@ The methods of defogging usually are out of two principles. One of them is to de
 
 These principles can be explained and directly shown in psychrometric chart. The schematic points on psychrometric chart are shown in Figure.1. As shown in Fig.1, when the inner surrounding air of the window is at 21℃, its corresponding dew point temperature can be 16℃ at a specific inner condition. Thus, when the temperature on the surface of window reaches the surrounding air’s dew point temperature, condensation will occur on the inner surface resulting in the fog on the window.
 
+<div align="center">
 <img width="581" alt="graph" src="https://user-images.githubusercontent.com/42809684/67062431-4849d300-f131-11e9-9cf1-7e4f398c2b73.png">
+</div>
+
+
+<p align="center">Figure 1. Schematic points on psychrometric chart<sup>[1]</sup></p>
 
 ### Sensors Used
 
@@ -38,7 +43,7 @@ Regarding the principles discussed above, we will need sensors to detect the fog
 
 #### DHT11 Humidity and Temperature Sensor 
 
-DHT11 sensor is used to detect the generation of fog. It has 3 pins and sends its temperature and relative humidity data to Raspberry Pi. We use DHT11 to judge the fog by the combined consideration of temperature and relative humidity. Its technical details are shown as following:
+DHT11 sensor is used to detect the generation of fog. It has 3 pins and sends its temperature and relative humidity data to Raspberry Pi. We use DHT11 to judge the fog by the combined consideration of temperature and relative humidity. Its technical details are shown as follows<sup>[2]</sup>:
 
 ● Low cost
 ● 3 to 5V power and I/O
@@ -51,22 +56,22 @@ DHT11 sensor is used to detect the generation of fog. It has 3 pins and sends it
 
 ##### Principles of humidity measurement
 
-The principle for the humidity measurement of DHT11 is to detect water vapor by measuring the electrical resistance between two electrodes. Between the electrodes, there is a moisture-holding substrate that can absorb water vapor. The substrate releases free ions, which increases the conductivity between the electrode, as water vapor enters it. Thus, the humidity sensing component is a moisture holding substrate with electrodes applied to the surface. When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. The change in resistance between the two electrodes is proportional to the relative humidity. Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes.
+The principle for the humidity measurement of DHT11 is to detect water vapor by measuring the electrical resistance between two electrodes. Between the electrodes, there is a moisture-holding substrate that can absorb water vapor. The substrate releases free ions, which increases the conductivity between the electrode, as water vapor enters it. Thus, the humidity sensing component is a moisture holding substrate with electrodes applied to the surface. When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. The change in resistance between the two electrodes is proportional to the relative humidity. Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes<sup>[3]</sup>.
 
 ##### Principles of temperature measurement
 
-The measurement of the temperature of DHT11 is finished by a surface mounted NTC temperature sensor built into the unit. This temperature sensor is one type of thermistors[3]. It measures the temperature by the resistance changing with temperature. Thermistors are made from semiconductor materials. The resistance of a thermistor is measured by applying a constant current, then measuring the resulting voltage and finally the determination of the RTD resistance. Thermistors exhibit a highly nonlinear resistance vs. temperature curve. Thus, in the thermistors operating range there exhibits a large resistance change for a very small temperature change. This makes for a highly sensitive device, ideal for set-point applications[4].
+The measurement of the temperature of DHT11 is finished by a surface mounted NTC temperature sensor built into the unit. This temperature sensor is one type of thermistors<sup>[3]</sup>. It measures the temperature by the resistance changing with temperature. Thermistors are made from semiconductor materials. The resistance of a thermistor is measured by applying a constant current, then measuring the resulting voltage and finally the determination of the RTD resistance. Thermistors exhibit a highly nonlinear resistance vs. temperature curve. Thus, in the thermistors operating range there exhibits a large resistance change for a very small temperature change. This makes for a highly sensitive device, ideal for set-point applications <sup>[4]</sup>.
 
 With the plastic housing removed, you can see the electrodes applied to the substrate, an IC mounted on the back of the unit converts the resistance measurement to relative humidity. It also stores the calibration coefficients and controls the data signal transmission between the DHT11 and the Arduino. Fig.2 shows the picture of the departed DHT11 sensor.
 
 <div align="center">
 <img width="550" height="350" src="https://user-images.githubusercontent.com/42809684/66973309-9c878100-f065-11e9-99c5-bf38f289d4d6.png"/></div>
 
-<p align="center">Figure 2. Picture of DHT11<sup>[1]</sup></p>
+<p align="center">Figure 2. Picture of DHT11<sup>[2]</sup></p>
 
 #### Fan
 
-The team use Noctua NF-R8 redux-1800 PWM cooling fan to react with the humidity increase and defog the window. This cooling fan is a 4-pin fan with a voltage of 12V. Its detailed characteristics are listed below [5]:
+The team use Noctua NF-R8 redux-1800 PWM cooling fan to react with the humidity increase and defog the window. This cooling fan is a 4-pin fan with a voltage of 12V. Its detailed characteristics are listed below <sup>[5]</sup>:
 
 ●	4-pin connector
 ●	Voltage of 12V
@@ -78,7 +83,7 @@ The team use Noctua NF-R8 redux-1800 PWM cooling fan to react with the humidity 
 
 #### Buzzer
 
-The team use buzzer to warn drivers when the window is fogging. A buzzer can be sorted as a passive or active buzzer. An active buzzer has a built-in oscillating source. Thus, it will make sounds when electrified. But a passive buzzer does not have such a source, so it will not tweet if DC signals are used; instead, you need to use square waves whose frequency is between 2K and 5K to drive it. The active buzzer is often more expensive than the passive one because of multiple built-in oscillating circuits. Its detailed characteristics and connection information are shown below[2]:
+The team use buzzer to warn drivers when the window is fogging. A buzzer can be sorted as a passive or active buzzer. An active buzzer has a built-in oscillating source. Thus, it will make sounds when electrified. But a passive buzzer does not have such a source, so it will not tweet if DC signals are used; instead, you need to use square waves whose frequency is between 2K and 5K to drive it. The active buzzer is often more expensive than the passive one because of multiple built-in oscillating circuits. Its detailed characteristics and connection information are shown below<sup>[2]</sup>:
 
 ●	Work Voltage:3.3-5V
 ●	PCB Dimension: 3.1cm x 3.1cm
@@ -89,6 +94,8 @@ The team use buzzer to warn drivers when the window is fogging. A buzzer can be 
 ## Experiments and Results
 
 The team used all the sensors and other items to build a system, including DHT11 Humidity and temperature sensor, the buzzer, a fan, a glass box (acts as a vehicle), a bag of ice (mimic cold weather outside), and other necessary objects. Besides, assuming threshold temperature and humidity are 20℃ and 55% (the buzzer will ring at this condition), respectively. When a driver enters a car and breaths after several minutes, the inside humidity will increase. The temperature of the inner side of the windshield will decrease because of the cold weather (acted by the bag of ice).
+
+
 
 ### Experiment Steps
 
