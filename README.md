@@ -52,12 +52,19 @@ Regarding the principles discussed above, we will need sensors to detect the fog
 DHT11 sensor is used to detect the generation of fog. It has 3 pins and sends its temperature and relative humidity data to Raspberry Pi. We use DHT11 to judge the fog by the combined consideration of temperature and relative humidity. Its technical details are shown as follows<sup>[2]</sup>:
 
 ● Low cost
+
 ● 3 to 5V power and I/O
+
 ● 2.5mA max current use during conversion (while requesting data)
+
 ● Good for 20-80% humidity readings with 5% accuracy
+
 ● Good for 0-50°C temperature readings ±2°C accuracy
+
 ● No more than 1 Hz sampling rate (once every second)
+
 ● Body size 15.5mm x 12mm x 5.5mm
+
 ● 4 pins with 0.1" spacing
 
 ##### Principles of humidity measurement
@@ -80,11 +87,17 @@ With the plastic housing removed, you can see the electrodes applied to the subs
 The team use Noctua NF-R8 redux-1800 PWM cooling fan to react with the humidity increase and defog the window. This cooling fan is a 4-pin fan with a voltage of 12V. Its detailed characteristics are listed below <sup>[5]</sup>:
 
 ●	4-pin connector
+
 ●	Voltage of 12V
+
 ●	Max RPM:180/ Min RPM:325
+
 ●	Acoustical Noise of 17.1 dB(A)
+
 ●	Static Pressure of 1.41 mmH2O
+
 ●	Airflow of 53.3 m3/h
+
 ●	Body size of 80mm x 80mm x 25mm
 
 #### Buzzer
@@ -92,9 +105,13 @@ The team use Noctua NF-R8 redux-1800 PWM cooling fan to react with the humidity 
 The team use buzzer to warn drivers when the window is fogging. A buzzer can be sorted as a passive or active buzzer. An active buzzer has a built-in oscillating source. Thus, it will make sounds when electrified. But a passive buzzer does not have such a source, so it will not tweet if DC signals are used; instead, you need to use square waves whose frequency is between 2K and 5K to drive it. The active buzzer is often more expensive than the passive one because of multiple built-in oscillating circuits. Its detailed characteristics and connection information are shown below<sup>[2]</sup>:
 
 ●	Work Voltage:3.3-5V
+
 ●	PCB Dimension: 3.1cm x 3.1cm
+
 ●	VCC: 3.3-5V
+
 ●	GND: The Ground
+
 ●	I/O: I/O Interface of SCM
 
 ## Experiments and Results
