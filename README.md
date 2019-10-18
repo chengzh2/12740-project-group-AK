@@ -136,6 +136,13 @@ The experiment code below shows how a computer controls the experiment system’
 
 <p align="center">Figure.4 (b) Code of Buzzer Control and Data Reading</p>
 
+
+<div align="center">
+<img width="550" height="150" src="https://user-images.githubusercontent.com/42809684/67063669-91038b00-f135-11e9-945b-777a058182ba.png"/>
+</div>
+
+<p align="center">Figure.4 (c) Code of Main Function</p>
+
 ## Discussion
 
 The foggy windshield, which blocks drivers’ vision, may lead to traffic safety concerns. Based on the psychrometer chart, water vapor is more likely to condensate under low temperatures. Therefore, this safety problem is more serious for vehicles in cold areas, such as New York City and Pittsburgh. Our Waking-up System for Rear Window Defogger is designed to detect the fog formation on the rear window and clean it automatically as well as alerting the driver. Our group builds the system with a fan, a buzzer, and a temperature and humidity sensor. The experiment is carried on at room temperature but the ice bag is applied to simulate windows under the cold weather. Adding water vapor into the box with room temperature does not guarantee the formation of fog. However, after the glass box contacting with the ice bag, fog rapidly forms on the glass wall. Therefore, the temperature is the more deterministic factor in fog formation. After several trials, we find out the threshold is 20-degree Celsius and 55% relative humidity. As glass temperature decreases room temperature below 20-degree Celsius and the relative humidity is larger than 55% relative humidity, the fog is visible on the glass. At this point, the fan is activated to accelerate air circulation and buzzer beeps to alert the driver. 
