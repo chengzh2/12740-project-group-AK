@@ -55,7 +55,7 @@ The DHT11 measures temperature with a surface mounted NTC temperature sensor (th
 
 With the plastic housing removed, you can see the electrodes applied to the substrate, an IC mounted on the back of the unit converts the resistance measurement to relative humidity. It also stores the calibration coefficients, and controls the data signal transmission between the DHT11 and the Arduino:
 
-![sensor](https://user-images.githubusercontent.com/42809684/66973309-9c878100-f065-11e9-99c5-bf38f289d4d6.png)
+<p align="center">![sensor](https://user-images.githubusercontent.com/42809684/66973309-9c878100-f065-11e9-99c5-bf38f289d4d6.png)</p>
 
 <p align="center">Figure 2. Picture of DHT11<sup>[1]</sup></p>
 
