@@ -3,6 +3,9 @@
 
 Yaxian Zheng, Cheng Zhang, Kaiwen Zhang, Yanbo Zhang
 
+[Video Link](https://vimeo.com/367159281)
+[OpenChirp Link](https://openchirp.io/home/device/5da8fbefa6a137380d646f1e#visualization)
+
 ## Introduction
  
 The Waking-up System for Rear Window Defogger is an automated anti-fog system. This system combines the fog detection, automatic activation of defogger and driver notice properties. The fog detection property is achieved by gathering air temperature in the vehicle and the temperature and humidity of rear window glass. The system can detect the formation of fog and activate the fan at the rear window and the buzzer alert the driver. The fan would stop as the rear window is cleared. Furthermore, the users can monitor the temperature and humidity change in their vehicles during a period on the website “OpenChirp”. 
