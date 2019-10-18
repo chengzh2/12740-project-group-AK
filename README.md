@@ -1,3 +1,4 @@
+![](img_url)
 ### Team Members
 
 Yaxian Zheng, Cheng Zhang, Kaiwen Zhang, Yanbo Zhang
