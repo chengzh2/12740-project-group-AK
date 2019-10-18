@@ -95,7 +95,11 @@ The team use buzzer to warn drivers when the window is fogging. A buzzer can be 
 
 The team used all the sensors and other items to build a system, including DHT11 Humidity and temperature sensor, the buzzer, a fan, a glass box (acts as a vehicle), a bag of ice (mimic cold weather outside), and other necessary objects. Besides, assuming threshold temperature and humidity are 20℃ and 55% (the buzzer will ring at this condition), respectively. When a driver enters a car and breaths after several minutes, the inside humidity will increase. The temperature of the inner side of the windshield will decrease because of the cold weather (acted by the bag of ice).
 
+<div align="center">
+![experiment](https://user-images.githubusercontent.com/42809684/67063108-7e885200-f133-11e9-8734-283ee8b5af4e.jpg)
+</div>
 
+<p align="center">Fig.3 Defogger Experiment Setup</p>
 
 ### Experiment Steps
 
