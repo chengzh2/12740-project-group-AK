@@ -124,7 +124,7 @@ The team used all the sensors and other items to build a system, including DHT11
 The experiment code below shows how a computer controls the experiment system’s actions. It seems that the computer sends demands to system components when to work or finish working.
 
 <div align="center">
-<img width="550" height="350" src="https://user-images.githubusercontent.com/42809684/67063401-b04de880-f134-11e9-99d2-0332134f209f.png"/>
+<img width="550" height="550" src="https://user-images.githubusercontent.com/42809684/67063401-b04de880-f134-11e9-99d2-0332134f209f.png"/>
 </div>
 
 <p align="center">Figure.4 (a) Code of the setting of threshold</p>
