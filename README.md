@@ -30,7 +30,7 @@ The methods of defogging usually are out of two principles. One of them is to de
 
 These principles can be explained and directly shown in psychrometric chart. The schematic points on psychrometric chart are shown in Figure.1. As shown in Fig.1, when the inner surrounding air of the window is at 21℃, its corresponding dew point temperature can be 16℃ at a specific inner condition. Thus, when the temperature on the surface of window reaches the surrounding air’s dew point temperature, condensation will occur on the inner surface resulting in the fog on the window.
 
-
+<img width="581" alt="graph" src="https://user-images.githubusercontent.com/42809684/67062431-4849d300-f131-11e9-9cf1-7e4f398c2b73.png">
 
 ### Sensors Used
 
